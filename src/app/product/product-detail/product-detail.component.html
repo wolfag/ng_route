@@ -1,0 +1,4 @@
+<p>Product ID:{{ productId }}</p>
+<div>{{ query | json }}</div>
+<a [routerLink]="['/product', '6']">go to 6</a>
+<button (click)="handleBack($event)">back to list</button>
